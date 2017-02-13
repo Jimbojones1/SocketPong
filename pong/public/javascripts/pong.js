@@ -35,7 +35,7 @@ var player = {
         ctx.fillStyle = '#000000';
         ctx.fill();
     }
-    
+
 }
 
 function draw(){
