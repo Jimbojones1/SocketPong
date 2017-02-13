@@ -8,13 +8,13 @@ var watch       = require('gulp-watch');
 
 //  first arguement is the files I want to watch, the second is the task to run
 gulp.task('watch', function(){
-  gulp.watch(['./server/public/styles/*.less'], ['compile-less'])
+  gulp.watch(['./public/stylesheets/*.less'], ['compile-less'])
 })
 
 gulp.task('compile-less', function(){
-  gulp.src('./server/public/styles/main.less')
+  gulp.src('./public/stylesheets/style.less')
   .pipe(less())
-  .pipe(gulp.dest('./server/public/styles'))
+  .pipe(gulp.dest('./public/stylesheets/'))
 })
 
 
