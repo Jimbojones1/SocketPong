@@ -12,7 +12,16 @@
     "express": "~4.14.1",
     "hbs": "~4.0.1",
     "less-middleware": "~2.2.0",
+    "mongoose": "^4.8.2",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-watch": "^4.3.11",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
